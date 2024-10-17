@@ -110,7 +110,6 @@ void insertionSort(int list[], int n)
 		}
 	}
 
-	cout << "\n";
 	for (int i = 0; i < n; i++)
 	{
 		cout << list[i] << " ";
@@ -122,7 +121,7 @@ void insertionExample()
 	int list[7] = { 1, 10, 5, 9, 7, 6, 4 };
 
 	insertionSort(list, 7);
-
+	cout << "\n";
 }
 
 
@@ -134,7 +133,6 @@ void countSort(vector<int> array, vector<int> count)
 	}
 
 	// count의 인덱스 번호가 숫자가되고 값이 크기가 되는것
-	cout << "\n";
 	for (int i = 0; i < count.size(); i++)
 	{
 		if (count[i] != 0)
@@ -155,4 +153,5 @@ void countExample()
 	vector<int> count(max + 1,0);
 	
 	countSort(array, count);
+	cout << "\n";
 }
