@@ -140,7 +140,7 @@ void QuickSort(vector<int>& nums, int begin, int end)
 			continue;
 		}
 
-		swap(nums[lIdx], nums[rIdx]); // 피벗 기준으로 큰 값과 작은 값을 교환
+		swap(nums[lIdx], nums[rIdx]); // num[lIdx]가 피벗보다 크고 num[rIdx]가 피벗보다 작으면 피벗 기준으로 큰 값과 작은 값을 교환
 	}
 
 	swap(nums[lIdx], nums[lastIdx]); // 피벗을 제자리에 배치

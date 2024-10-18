@@ -46,4 +46,6 @@ int main()
 	{
 		cout << n << " ";
 	}
+	cout << "\n";
+	cout << "3번째로 큰 수 : " << QuickSelect(nums, 7) << "\n";
 }
