@@ -36,4 +36,14 @@ int main()
 	{
 		cout << list[i] << " ";
 	}
+
+	cout << "\n"; // 구분
+
+	cout << "퀵 정렬 " << "\n";
+	vector<int> nums = { 7,6,10,8,3,5,9,1,20,6,13 }; // 퀵 정렬 예시 벡터
+	QuickSort(nums, 0, nums.size() - 1);
+	for (int n : nums)
+	{
+		cout << n << " ";
+	}
 }
