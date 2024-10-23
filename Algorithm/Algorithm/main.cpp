@@ -13,6 +13,7 @@ int main()
 {
 	cout << "Algorithm" << endl;
 
+	// 버블정렬 선택정렬 삽입정렬 계수정렬
 	cout << "\n"; // 구분
 
 	bubbleExample();
@@ -25,11 +26,13 @@ int main()
 	
 	InputExample();
 
+	// 재귀 예시 (거듭제곱)
 	cout << "\n"; // 구분
 
 	cout << "a의 제곱 수 구하기 : " << " ";
 	cout << Pow(3, 5) << "\n";
 
+	// 병합정렬
 	cout << "\n"; // 구분
 
 	cout << "병합 정렬 " << "\n";
@@ -39,7 +42,8 @@ int main()
 	{
 		cout << list[i] << " ";
 	}
-
+	
+	// 퀵 정렬과 퀵 선택
 	cout << "\n"; // 구분
 
 	cout << "퀵 정렬 " << "\n";
@@ -52,6 +56,7 @@ int main()
 	cout << "\n";
 	cout << "3번째로 큰 수 : " << QuickSelect(nums, 7) << "\n";
 
+	// 재귀와 DP 피보나치수열 효율성 비교
 	cout << "\n"; // 구분
 
 	cout << "재귀 : 피보나치 수열 " << endl;
@@ -63,4 +68,10 @@ int main()
 
 	cout << "피보나치 " << n << "번째 수 : " << FibDp(n) << "\n";
 	cout << "피보나치 시간 : " << measureExecutionTime(FibDp, n) << "ms" << "\n";
+
+	// 계단 오르기 문제
+	cout << "\n"; // 구분
+	cout << "계단 오르기 문제(메모이제이션)" << "\n";
+	vector<int> stairs = { 10, 20, 15, 25, 10, 20 };
+	cout << "계단의 수가(" << stairs.size() << ")인 최대 값 : " << StairCount(stairs) << "\n";
 }
