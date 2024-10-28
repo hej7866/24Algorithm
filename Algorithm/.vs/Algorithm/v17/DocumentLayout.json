@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\BackTracking.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\BackTracking.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\DataStructure.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\DataStructure.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\DynamicPrograming.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\DynamicPrograming.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\DynamicPrograming.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -46,7 +50,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DynamicPrograming.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\DynamicPrograming.cpp",
               "RelativeDocumentMoniker": "Algorithm\\DynamicPrograming.cpp",
@@ -60,6 +64,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BackTracking.h",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\BackTracking.h",
+              "RelativeDocumentMoniker": "Algorithm\\BackTracking.h",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\BackTracking.h",
+              "RelativeToolTip": "Algorithm\\BackTracking.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-28T07:09:05.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DataStructure.h",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\DataStructure.h",
               "RelativeDocumentMoniker": "Algorithm\\DataStructure.h",
@@ -72,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Greedy.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\Greedy.cpp",
               "RelativeDocumentMoniker": "Algorithm\\Greedy.cpp",
@@ -80,12 +101,11 @@
               "RelativeToolTip": "Algorithm\\Greedy.cpp",
               "ViewState": "AQIAAHAAAAAAAAAAAAAAAG8AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-24T07:23:38.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T07:23:38.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Greedy.h",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\Greedy.h",
               "RelativeDocumentMoniker": "Algorithm\\Greedy.h",
@@ -93,29 +113,24 @@
               "RelativeToolTip": "Algorithm\\Greedy.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-24T07:01:35.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-10-24T07:01:35.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\main.cpp",
               "RelativeDocumentMoniker": "Algorithm\\main.cpp",
               "ToolTip": "C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\main.cpp",
               "RelativeToolTip": "Algorithm\\main.cpp",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAAABIAAAARAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-15T07:10:55.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DynamicPrograming.h",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\DynamicPrograming.h",
               "RelativeDocumentMoniker": "Algorithm\\DynamicPrograming.h",
@@ -123,12 +138,11 @@
               "RelativeToolTip": "Algorithm\\DynamicPrograming.h",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-22T07:10:11.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T07:10:11.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Problem.h",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\Problem.h",
               "RelativeDocumentMoniker": "Algorithm\\Problem.h",
@@ -140,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "TimeChecker.h",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\TimeChecker.h",
               "RelativeDocumentMoniker": "Algorithm\\TimeChecker.h",

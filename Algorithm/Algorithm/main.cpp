@@ -5,6 +5,7 @@
 #include "DevideAndConquer.h"
 #include "DynamicPrograming.h"
 #include "TimeChecker.h"
+#include "BackTracking.h"
 
 
 using namespace std;

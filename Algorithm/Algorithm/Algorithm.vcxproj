@@ -136,6 +136,7 @@
     <ClCompile Include="Sort.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BackTracking.h" />
     <ClInclude Include="DataStructure.h" />
     <ClInclude Include="DevideAndConquer.h" />
     <ClInclude Include="DynamicPrograming.h" />
