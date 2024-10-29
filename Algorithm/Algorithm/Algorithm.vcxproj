@@ -136,10 +136,12 @@
     <ClCompile Include="Sort.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Array2D.h" />
     <ClInclude Include="BackTracking.h" />
     <ClInclude Include="DataStructure.h" />
     <ClInclude Include="DevideAndConquer.h" />
     <ClInclude Include="DynamicPrograming.h" />
+    <ClInclude Include="Graph.h" />
     <ClInclude Include="Greedy.h" />
     <ClInclude Include="InputReference.h" />
     <ClInclude Include="lecture.h" />

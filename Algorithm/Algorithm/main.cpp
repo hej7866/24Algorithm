@@ -6,6 +6,7 @@
 #include "DynamicPrograming.h"
 #include "TimeChecker.h"
 #include "BackTracking.h"
+#include "Array2D.h"
 
 
 using namespace std;
@@ -75,4 +76,19 @@ int main()
 	cout << "계단 오르기 문제(메모이제이션)" << "\n";
 	vector<int> stairs = { 10, 20, 15, 25, 10, 20 };
 	cout << "계단의 수가(" << stairs.size() << ")인 최대 값 : " << StairCount(stairs) << "\n";
+
+
+	// 순열 조합
+	cout << "\n";
+	cout << "순열" << endl;
+	Permutation::Case01();
+	cout << "조합" << endl;
+	Combine::Case02();
+
+	// 2차원 배열
+	cout << "\n";
+	cout << "2차원 배열" << endl;
+	//Board::Case01();
+	//Board::Case02();
+	Board::Case03();
 }
