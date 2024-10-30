@@ -7,6 +7,7 @@
 #include "TimeChecker.h"
 #include "BackTracking.h"
 #include "Array2D.h"
+#include "Graph.h"
 
 
 using namespace std;
@@ -90,5 +91,6 @@ int main()
 	cout << "2차원 배열" << endl;
 	//Board::Case01();
 	//Board::Case02();
-	Board::Case03();
+	//Board::Case03();
+	GraphVec::Print();
 }

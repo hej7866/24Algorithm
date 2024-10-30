@@ -2,38 +2,40 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
-// 백준문제 - 바이러스 [2606]
 namespace virus
 {
 	vector<vector<int>> graph(101);
 	bool visited[101] = { false };
 
-	int n, m; // n 컴퓨터 수, m(엣지)의 수
-	int cnt = 0; // 1번 컴퓨터와 연결된 컴퓨터의 수
+	int n, m;      // n 컴퓨터수, m(선)의 수
+	int count = 0; // 1번 컴퓨터와 연결된 컴퓨터의 수
 
-	void DFS(int node) // 현재 연결된 컴퓨텨 (node)
+	void DFS(int node) // 현재 연결된 컴퓨터(Vertex, node)
 	{
-		for (int i = 0; i < graph[node].size(); i++)
+		for (int i = 0; graph[node].size(); i++)
 		{
-			int currentNode = graph[node][i];
+			int current = graph[node][i];
 
-			if (visited[currentNode]) continue;
-			visited[currentNode] = true;
-			cnt++;
-			DFS(currentNode);
+			if (visited[current]) continue;
+
+			visited[current] = true;
+			count++;
+			DFS(current);
 		}
 	}
 
-	void Solution_2606()
+	void Example01()
 	{
 		cin >> n >> m;
+
 		for (int i = 0; i < m; i++)
 		{
 			int a, b;
-			cin >> a >> b; // 컴퓨터, 정점
+			cin >> a >> b;	  // 컴퓨터, 정점
 
 			graph[a].push_back(b);
 			graph[b].push_back(a);
@@ -43,6 +45,67 @@ namespace virus
 		visited[1] = true;
 		DFS(1);
 
-		cout << cnt << "\n";
+		cout << count << '\n';
+	}
+}
+
+namespace GraphVec
+{
+	int n, m;
+
+	// n 세로의 갯수,  m 가로의 갯수
+
+	vector<vector<int>> graph;
+
+
+
+	void Print()
+	{
+		n = 6, m = 4;
+
+		graph = vector<vector<int>>(n);
+
+		// 입력
+
+		for (int i = 0; i < m; i++)  // i가 선의 갯수 만큼 입력값을 받아옵니다.
+		{
+			int a, b;
+			cin >> a >> b;
+
+			graph[a].push_back(b);
+			graph[b].push_back(a);
+		}
+
+		// 정렬
+
+		for (int i = 0; i < n; i++)
+		{
+			sort(graph[i].begin(), graph[i].end());
+		}
+
+
+
+		// 출력
+
+		for (int i = 0; i < n; i++)
+		{
+			cout << "[" << i << "] : ";
+
+			for (int j = 0; j < m; j++)
+			{
+				// graph[i].연결된 데이터가 없을 때 접근할 방법이없다.
+				if (j < graph[i].size())
+				{
+					cout << graph[i][j] << ' ';
+				}
+				else
+				{
+					cout << "@";	    // 0 공백 숫자 1부터 시작,. 
+				}
+			}
+			cout << '\n';
+		}
+
+
 	}
 }
