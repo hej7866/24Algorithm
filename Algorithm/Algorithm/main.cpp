@@ -92,5 +92,6 @@ int main()
 	//Board::Case01();
 	//Board::Case02();
 	//Board::Case03();
-	GraphVec::Print();
+	//GraphVec::Print();
+	InputGraph::Show();
 }
