@@ -8,6 +8,7 @@
 #include "BackTracking.h"
 #include "Array2D.h"
 #include "Graph.h"
+#include "MST.h"
 
 
 using namespace std;
@@ -93,5 +94,7 @@ int main()
 	//Board::Case02();
 	//Board::Case03();
 	//GraphVec::Print();
-	InputGraph::Show();
+	//InputGraph::Show();
+	InputWeight::Show();
+	InputWeight::Show2();
 }
