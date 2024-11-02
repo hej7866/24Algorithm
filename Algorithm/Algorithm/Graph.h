@@ -4,6 +4,7 @@
 #include <vector>
 #include <algorithm>
 #include <string>
+#include <queue>
 
 using namespace std;
 
@@ -147,4 +148,59 @@ namespace InputGraph
 		}
 
 	}
+}
+
+
+
+
+void BFS(int y)
+{
+	int n, m, start;
+	vector<vector<int>> graph(100001);
+	bool seen[100001] = { false };
+
+	// BFS Algorithm
+	queue<int> q;
+	q.push(y);
+	seen[y] = true;
+
+	while (!q.empty())
+	{
+		int curr = q.front();
+		q.pop();
+
+		for (int i = 0; i < graph[curr].size(); i++)
+		{
+			int next = graph[curr][i];
+
+			if (!seen[next])
+			{
+				seen[next] = true;
+				q.push(next);
+			}
+		}
+	}
+}
+
+
+
+
+void DFS(int y)
+{
+	int n, m, start;
+	vector<vector<int>> graph(100001);
+	bool seen[100001] = { false };
+
+	// DFS Algorithm
+
+	// 재귀 탈출 조건
+	if (seen[y]) return;
+	seen[y] = true; // 보았음
+
+	for (int i = 0; i < graph[y].size(); i++) // DFS(y) 정점의 수 반복문 작성
+	{
+		int curr = graph[y][i]; // 순회할 vertex의 번호
+		DFS(curr);
+	}
+
 }

@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\Graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\DynamicPrograming.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\DynamicPrograming.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\MST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\MST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\Array2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\Array2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\DynamicPrograming.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\DynamicPrograming.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F71E6577-E46B-4710-B957-7379E2601E41}|Algorithm\\Algorithm.vcxproj|C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\BackTracking.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MST.h",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\MST.h",
               "RelativeDocumentMoniker": "Algorithm\\MST.h",
@@ -64,14 +64,14 @@
               "RelativeDocumentMoniker": "Algorithm\\Graph.h",
               "ToolTip": "C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\Graph.h",
               "RelativeToolTip": "Algorithm\\Graph.h",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAmwJUAAAABAAAA",
+              "ViewState": "AQIAALkAAAAAAAAAAAAmwMUAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-29T08:10:45.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Array2D.h",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\Array2D.h",
               "RelativeDocumentMoniker": "Algorithm\\Array2D.h",
@@ -95,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\main.cpp",
               "RelativeDocumentMoniker": "Algorithm\\main.cpp",
@@ -107,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "DynamicPrograming.h",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\24Algorithm\\Algorithm\\Algorithm\\DynamicPrograming.h",
               "RelativeDocumentMoniker": "Algorithm\\DynamicPrograming.h",
@@ -115,7 +115,8 @@
               "RelativeToolTip": "Algorithm\\DynamicPrograming.h",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-22T07:10:11.436Z"
+              "WhenOpened": "2024-10-22T07:10:11.436Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
