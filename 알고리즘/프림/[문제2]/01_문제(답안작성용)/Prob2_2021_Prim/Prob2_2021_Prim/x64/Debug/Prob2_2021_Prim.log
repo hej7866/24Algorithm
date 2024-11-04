@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Administrator\Downloads\[시험문제] 2021 게임프로그래밍전문가 제2회 실기시험\[문제2]\01_문제(답안작성용)\Prob2_2021_Prim\Prob2_2021_Prim\main.cpp(38,10): warning C4473: 'scanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+  Prob2_2021_Prim.vcxproj -> C:\Users\Administrator\Downloads\[시험문제] 2021 게임프로그래밍전문가 제2회 실기시험\[문제2]\01_문제(답안작성용)\Prob2_2021_Prim\x64\Debug\Prob2_2021_Prim.exe

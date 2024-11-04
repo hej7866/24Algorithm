@@ -74,6 +74,25 @@ namespace InputWeight
 	}
 }
 
+namespace InputGraph
+{
+	void Show()
+	{
+		int size = 7;
+
+		int graph[7][7];
+
+		for (int i = 0; i < 7; i++)
+		{
+			for (int j = 0; j < 7; j++)
+			{
+				cout << graph[i][j] << " ";
+			}
+			cout << "\n";
+		}
+	}
+}
+
 namespace Union_Find
 {
 	// 서로소 문제

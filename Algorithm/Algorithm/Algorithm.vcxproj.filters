@@ -80,5 +80,11 @@
     <ClInclude Include="MST.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Kruskal.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="프림.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

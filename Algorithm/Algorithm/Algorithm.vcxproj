@@ -144,12 +144,14 @@
     <ClInclude Include="Graph.h" />
     <ClInclude Include="Greedy.h" />
     <ClInclude Include="InputReference.h" />
+    <ClInclude Include="Kruskal.h" />
     <ClInclude Include="lecture.h" />
     <ClInclude Include="MST.h" />
     <ClInclude Include="Pow.h" />
     <ClInclude Include="Problem.h" />
     <ClInclude Include="Sort.h" />
     <ClInclude Include="TimeChecker.h" />
+    <ClInclude Include="프림.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
