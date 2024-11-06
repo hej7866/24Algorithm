@@ -9,6 +9,7 @@
 #include "Array2D.h"
 #include "Graph.h"
 #include "MST.h"
+#include "AStar.h"
 
 
 using namespace std;
@@ -97,4 +98,7 @@ int main()
 	//InputGraph::Show();
 	InputWeight::Show();
 	InputWeight::Show2();
+
+	system("cls");
+	FoundPath::SolveProble();
 }
